@@ -10,8 +10,8 @@ const Home = () => {
   return (
     <div className='homeContainer'>
       <Profile />
-      {/* <SocialCard title='Twitter Link' /> */}
-      {/* <a
+      <SocialCard title='Twitter Link' />
+      <a
         href='https://training.zuri.team/'
         target='_blank'
         rel='noreferrer'
@@ -56,7 +56,7 @@ const Home = () => {
           <img src={slackImg} alt='slack' className='slack' />
         </div>
         <FontAwesomeIcon icon={faGithub} className='socialLinksIcon' />
-      </div> */}
+      </div>
       <Footer />
     </div>
   )
