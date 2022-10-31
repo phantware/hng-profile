@@ -22,3 +22,8 @@
   padding-right: 40px;
   cursor: pointer;
 }
+@media only screen and (max-width: 480px) {
+  .homeContainer {
+    width: 100%;
+  }
+}
