@@ -1,12 +1,14 @@
 import './home.css'
 import Profile from '../components/profile/Profile'
 import SocialCard from '../components/socialCard/SocialCard'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import slackImg from '../assets/slack.png'
 
 const Home = () => {
   return (
     <div className='homeContainer'>
       <Profile />
-
       <SocialCard title='Twitter Link' />
       <a
         href='https://training.zuri.team/'
@@ -48,7 +50,12 @@ const Home = () => {
       >
         <SocialCard title='Design Books' />
       </a>
-      <SocialCard lolo='lolo' />
+      <div className='socialLinks'>
+        <div className='slackImg'>
+          <img src={slackImg} alt='slack' className='slack' />
+        </div>
+        <FontAwesomeIcon icon={faGithub} className='socialLinksIcon' />
+      </div>
     </div>
   )
 }

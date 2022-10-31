@@ -5,3 +5,20 @@
   justify-content: center;
   padding-bottom: 100px;
 }
+.socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.socialLinksIcon {
+  padding-right: 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.slack {
+  width: 40px;
+  height: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+}
