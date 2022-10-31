@@ -4,6 +4,7 @@ import SocialCard from '../components/socialCard/SocialCard'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import slackImg from '../assets/slack.png'
+import Footer from '../components/footer/Footer'
 
 const Home = () => {
   return (
@@ -56,6 +57,7 @@ const Home = () => {
         </div>
         <FontAwesomeIcon icon={faGithub} className='socialLinksIcon' />
       </div>
+      <Footer />
     </div>
   )
 }
