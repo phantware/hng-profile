@@ -1,3 +1,4 @@
+import './profile.css'
 import profileImg from '../../assets/jamiu.jpg'
 
 const Profile = () => {
