@@ -19,4 +19,8 @@
   font-size: 18px;
   line-height: 28px;
   color: #101828;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
 }
