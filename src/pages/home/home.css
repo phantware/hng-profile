@@ -1,0 +1,29 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.socialLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.socialLinksIcon {
+  padding-right: 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.slack {
+  width: 40px;
+  height: 40px;
+  padding-right: 40px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 480px) {
+  .homeContainer {
+    width: 94%;
+  }
+}
