@@ -11,46 +11,46 @@ const Home = () => {
     <div className='homeContainer'>
       <Profile />
       <SocialCard title='Twitter Link' />
-      <a
+
+      <SocialCard
+        title='Zuri Team'
         href='https://training.zuri.team/'
         target='_blank'
         rel='noreferrer'
         id='btn__zuri'
-      >
-        <SocialCard title='Zuri Team' />
-      </a>
-      <a
+      />
+      <SocialCard
+        title='Zuri Book'
         href='https://books.zuri.team/'
         target='_blank'
         rel='noreferrer'
         id='books'
-      >
-        <SocialCard title='Zuri Book' />
-      </a>
-      <a
+      />
+
+      <SocialCard
+        title='Python Book'
         href='https://books.zuri.team/'
         target='_blank'
         rel='noreferrer'
         id='book__python'
-      >
-        <SocialCard title='Python Book' />
-      </a>
-      <a
+      />
+
+      <SocialCard
+        title='Background Check for Coders'
         href='https://background.zuri.team/'
         target='_blank'
         rel='noreferrer'
         id='pitch'
-      >
-        <SocialCard title='Background Check for Coders' />
-      </a>
-      <a
+      />
+
+      <SocialCard
+        title='Design Books'
         href='https://books.zuri.team/design-rules'
         target='_blank'
         rel='noreferrer'
         id='book__design'
-      >
-        <SocialCard title='Design Books' />
-      </a>
+      />
+
       <div className='socialLinks'>
         <div className='slackImg'>
           <img src={slackImg} alt='slack' className='slack' />

@@ -1,11 +1,14 @@
 import './socialCard.css'
 
-const SocialCard = ({ title, lolo }) => {
+const SocialCard = ({ title, href, target, rel, id }) => {
   return (
     <div className='socialCardContainer'>
       <div className='socialCardContainerWrapper'>
-        <h1 className='socialCardH'>{title}</h1>
-        <h2>{lolo}</h2>
+        <h1 className='socialCardH'>
+          <a href={href} target={target} rel={rel} id={id}>
+            {title}
+          </a>
+        </h1>
       </div>
     </div>
   )
